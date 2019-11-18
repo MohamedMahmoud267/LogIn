@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main2Activity"
+    android:background="@drawable/images">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#591A237E">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/apple"
+android:id="@+id/image2"
+        ></ImageView>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:textSize="25dp"
+    android:layout_below="@id/image2"
+    android:text="USER NAME"
+    android:layout_marginLeft="20dp"
+    android:textColor="#FFD600"
+    android:layout_marginTop="40dp"
+    android:id="@+id/text3"
+    android:textStyle="bold"
+    ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text3"
+        android:text="anneb@gmail.com"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/edit1"
+        ></EditText>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_below="@id/edit1"
+        android:text="PASSWORD"
+        android:layout_marginLeft="20dp"
+        android:textColor="#FFD600"
+        android:layout_marginTop="5dp"
+        android:id="@+id/text4"
+        android:textStyle="bold"
+        ></TextView>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/text4"
+        android:text="****************"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:backgroundTint="@android:color/transparent"
+        android:id="@+id/edit2"
+        android:layout_marginBottom="40dp"
+        ></EditText>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:background="@drawable/shape2"
+        android:layout_below="@id/edit2"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:textColor="#fff"
+      android:id="@+id/btn2"
+        ></Button>
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Forgot Password?"
+    android:textSize="15sp"
+    android:textColor="#fff"
+    android:layout_alignRight="@id/btn2"
+    android:layout_above="@id/btn2"
+    android:layout_marginBottom="5dp"
+    ></TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_below="@id/btn2"
+        android:layout_centerHorizontal="true"
+        android:textSize="15dp"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+     android:id="@+id/text5"
+        ></TextView>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/text5"
+    android:layout_marginTop="10dp"
+    android:orientation="horizontal"
+    >
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape1"
+        android:text="FACEBOOK"
+        android:textColor="#0D47A1"
+        android:gravity="center"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="10dp"
+        android:drawablePadding="200dp"
+        ></Button>
+    <Button
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_weight="1"
+        android:background="@drawable/shape1"
+        android:text="GMAIL"
+        android:textColor="#FF3D00"
+        android:gravity="center"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="5dp"
+        ></Button>
+
+
+</LinearLayout>
+
+</RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>
+</RelativeLayout>
